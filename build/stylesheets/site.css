@@ -5,9 +5,17 @@
 #angelic {
   font-family: AngelicWar; }
 
+body {
+  background-image: url("../images/bg.jpg");
+  background-repeat: repeat; }
+
+.hero-unit {
+  background-image: url("../images/content_bg2.png"); }
+
 .helvetica {
   font-family: helvetica; }
 
-@media (min-width: 980px) {
-  #angelic {
-    font-size: 169px; } }
+#fb {
+  width: 32px;
+  height: 32px;
+  float: right; }
