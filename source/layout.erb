@@ -9,6 +9,7 @@
     <%= stylesheet_link_tag "bootstrap-responsive" %>
     <%= stylesheet_link_tag "site.css" %>
     <%= yield_content :head %>
+    
     <script type="text/javascript">
 
       var _gaq = _gaq || [];
@@ -22,6 +23,7 @@
       })();
 
     </script>
+    
   </head>
   
   <body class="<%= page_classes %>">
@@ -31,4 +33,11 @@
     </div>
     
   </body>
+  <footer class="footer">
+    <div class="row-fluid">
+      <div class="span1">
+        <a href="http://www.facebook.com/IWasaWave">
+          <%= image_tag("fb.png", id: "fb") %> 
+        </a>
+  </footer>
 </html>
