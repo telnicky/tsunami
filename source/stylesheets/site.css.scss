@@ -1,0 +1,34 @@
+@font-face 
+{
+	font-family: AngelicWar;
+	src: url('../fonts/AngelicWar.otf'),
+		   url('../fonts/AngelicWar.ttf');
+
+}
+
+#angelic 
+{
+  font-family: AngelicWar;
+}
+
+.helvetica
+{
+  font-family: helvetica;
+}
+
+
+@media (min-width: 980px) 
+{
+  #angelic
+  {
+    font-size: 169px;
+  }
+}
+
+@media (max-width: 979px)
+{
+
+
+
+
+}
