@@ -19,3 +19,6 @@ body {
   width: 32px;
   height: 32px;
   float: right; }
+
+.float-right {
+  float: right; }
