@@ -3,7 +3,6 @@
 	font-family: AngelicWar;
 	src: url('../fonts/AngelicWar.otf'),
 		   url('../fonts/AngelicWar.ttf');
-
 }
 
 #angelic 
@@ -13,13 +12,16 @@
 
 body
 {
-  background-image: url("../images/bg.jpg");
-  background-repeat: repeat;
+  background-image: url("../images/IWAW4.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .hero-unit
 {
-  background-image: url("../images/content_bg2.png");
+  background-image: url("../images/IWAW3.png");
+  background-size: 100% 150%;
+  background-repeat: no-repeat;
 }
 .helvetica
 {
