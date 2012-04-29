@@ -12,8 +12,9 @@ body {
 
 .hero-unit {
   background-image: url("../images/IWAW3.png");
-  background-size: 100% 150%;
-  background-repeat: no-repeat; }
+  background-size: 150% 150%;
+  background-repeat: no-repeat;
+  background-color: #f0f0e0; }
 
 .helvetica {
   font-family: helvetica; }
@@ -25,3 +26,6 @@ body {
 
 .float-right {
   float: right; }
+
+.well {
+  background-color: #f0f0e0; }
