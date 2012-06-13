@@ -12,17 +12,17 @@
 
 body
 {
-  background-image: url("../images/IWAW4.png");
+  background-color: #202020;
   background-repeat: repeat;
   background-size: 150% 150%;
+  color: gray;
 }
 
 .hero-unit
 {
-  background-image: url("../images/IWAW3.png");
   background-size: 150% 150%;
   background-repeat: no-repeat;
-  background-color: #f0f0e0;
+  background-color: #333;
 }
 .helvetica
 {
@@ -43,5 +43,11 @@ body
 
 .well
 {
-  background-color: #f0f0e0;
+  background-color: #333;
+}
+
+.logo 
+{
+  width: 100%;
+  height: auto;
 }
