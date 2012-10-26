@@ -2,34 +2,42 @@
   font-family: AngelicWar;
   src: url("../fonts/AngelicWar.otf"), url("../fonts/AngelicWar.ttf"); }
 
+/* line 9, site.css.scss */
 #angelic {
   font-family: AngelicWar; }
 
+/* line 14, site.css.scss */
 body {
   background-color: #202020;
   background-repeat: repeat;
   background-size: 150% 150%;
   color: gray; }
 
+/* line 22, site.css.scss */
 .hero-unit {
   background-size: 150% 150%;
   background-repeat: no-repeat;
   background-color: #333; }
 
+/* line 28, site.css.scss */
 .helvetica {
   font-family: helvetica; }
 
+/* line 33, site.css.scss */
 #fb {
   width: 32px;
   height: 32px;
   float: right; }
 
+/* line 40, site.css.scss */
 .float-right {
   float: right; }
 
+/* line 45, site.css.scss */
 .well {
   background-color: #333; }
 
+/* line 50, site.css.scss */
 .logo {
   width: 100%;
   height: auto; }
