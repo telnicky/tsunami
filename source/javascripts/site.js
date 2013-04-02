@@ -36,7 +36,6 @@ buildHtml = function (posts) {
 }
 
 populateShows = function (data) {
-  console.log(data);
   if(data.meta.status == 200) {
     elements = buildHtml(data.response.posts);
     $('.shows').prepend(elements);
