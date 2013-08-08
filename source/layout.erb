@@ -30,19 +30,9 @@
   
   <body class="<%= page_classes %>">
 
-    <div id="main" role="main">
+    <div id="main" class="clouds" role="main">
       <%= yield %>
     </div>
-    <footer class="footer">
-      <div class="row-fluid">
-        <div class="span4">
-          <div class="alert alert-info float-right">
-            <strong>Need a website?</strong>
-            Contact me at Travis.Elnicky@gmail.com
-          </div>
-        </div>
-      </div>
-    </footer>
     <%= javascript_include_tag 'jquery-1.9.1.min' %>
     <%= javascript_include_tag 'underscore-min' %>
     <%= javascript_include_tag 'site' %>

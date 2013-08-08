@@ -1,65 +1,49 @@
-<div class="container">
+
 	</br>
-	<div class="row">
-	  
-	  <div class="hero-unit">
-	    <div>
-	      <%= image_tag("logo.png", class: "logo") %>
-	    </div>
-      <a href="http://www.facebook.com/IWasaWave">
-        <%= image_tag("fb.png", id: "fb") %> 
-      </a>
-	  </div>
+	<div class="row gigantic">	  
+    <div>
+      <%= image_tag("logo.png", class: "logo") %>
+    </div>
+    <a href="http://www.facebook.com/IWasaWave">
+      <%= image_tag("fb.png", id: "fb") %> 
+    </a>	  
 	</div>
 		
-	<div class="row">
-    <div class="well">
-      <div class="page-header">
-		    <h2>Music</h2>
-		    <p>We love what we do and want everyone to have our music. That is why our music is free. <strong>All donations will go to writing and recording new music :)</strong> </p>
-        
-		  </div>
-		  <div class="pull-right">
-		    <%= partial "partials/donate.html" %>
-		  </div>
+	<div class="row silver">
+    <div class="span7">
       <%= partial "partials/sound_cloud.html"%>
-	  </div>
-	</div><!-- row -->
-		
-	<div class="row well">
-	  
-	  <div class="span7">
-	    <div class="page-header">
-		    <h2>About</h2>
-		  </div>
-		  <%= partial "partials/about.html"%>
-		</div><!--well-->
-	  
-	  <div class="span4">
-		  <div class="page-header">
-  			<h2>Shows</h2>
-  		</div><!-- page header -->
-			<table class="table">
-  			<thead>
-  			  <tr>
-  			    <th>date</th>
-  			    <th>location</th>
-  			    <th>price</th>
-  			  </tr>
-  			</thead>
-  			<tbody class="shows">
-  			  <tr>
-  			    <td>-</td>
-  			    <td>-</td>
-  			    <td>-</td>
-  			  </tr>
-  			</tbody>
-		  </table>
+      <div class="pull-right">
+        <%= partial "partials/donate.html" %>
       </div>
-    </div>
+	  </div>
+	
 		
-	</div><!-- row -->
+  	<div class="span4">
+      <div class="page-header">
+        <h2>Upcoming Shows</h2>
+      </div><!-- page header -->
+      <table class="table">
+        <thead>
+          <tr>
+            <th>date</th>
+            <th>location</th>
+            <th>price</th>
+          </tr>
+        </thead>
+        <tbody class="shows">
+          <tr>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div><!-- row -->
 
-</div><!-- /.fluid-container -->
+
+
+
+
 
 

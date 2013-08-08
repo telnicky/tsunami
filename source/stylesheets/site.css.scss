@@ -12,7 +12,7 @@
 
 body
 {
-  background-color: #202020;
+  background-color: #FFFFFF;
   background-repeat: repeat;
   background-size: 150% 150%;
   color: gray;
@@ -22,8 +22,10 @@ body
 {
   background-size: 150% 150%;
   background-repeat: no-repeat;
-  background-color: #333;
+  background-color: #FFFFFF;
+  /*background-image: image-url('overhead-hi-res.jpg');*/
 }
+
 .helvetica
 {
   font-family: helvetica;
@@ -38,16 +40,35 @@ body
 
 .float-right
 {
-  float: right;
+  /*float: right;*/
 }
 
-.well
+/*.well
 {
   background-color: #333;
+}*/
+
+.iwaw-image {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
 }
 
 .logo 
 {
   width: 100%;
   height: auto;
+}
+
+
+.gigantic {
+  padding: 60px 100px;
+}
+
+.clouds {
+  background-color: #ECF0F1;
+}
+
+.silver {
+  background-color: #BDC3C7;
 }
